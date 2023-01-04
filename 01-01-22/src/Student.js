@@ -1,7 +1,7 @@
 export default class Student {
     constructor(name, birthdate, gender, enrollment, program, semester, subjects, marks) {
         this.name = name
-        this.birthdate = birthdate
+        this.birthdate = new Date(birthdate)
         this.gender = gender
         this.enrollment = enrollment
         this.program = program
@@ -10,11 +10,10 @@ export default class Student {
         this.marks = marks
     }
     getAge() {
-        var today = new Date();
-        var birthDate = new Date(this.birthdate);
-        var age = today.getFullYear() - birthDate.getFullYear();
-        var m = today.getMonth() - birthDate.getMonth();
-        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        const today = new Date();
+        let age = today.getFullYear() - this.birthdate.getFullYear();
+        let m = today.getMonth() - this.birthdate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < this.birthdate.getDate())) {
             age--;
         }
         return age;
@@ -29,7 +28,7 @@ export default class Student {
         return this.name;
     }
     getBirthdate() {
-        return this.birthdate;
+        return (this.birthdate.getDate() + "-" + (this.birthdate.getMonth() + 1) + "-" + this.birthdate.getFullYear());
     }
     getGender() {
         return this.gender;
