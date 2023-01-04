@@ -5,7 +5,7 @@ export function ProfileCard(props) {
   const student = props.student;
   const percentage = student.getResultPercentage();
   return (
-    <div className="card mb-4 rounded-4" style={{background:"#ffffff55"}}>
+    <div className="card mb-4 rounded-4 border-0 shadow mx-auto" style={{ background: "linear-gradient(120deg, rgba(255,255,255,0.7973325072216386) 0%, rgba(255,255,255,0.6992932915353641) 25%, rgba(255,255,255,0.6012540758490896) 50%, rgba(255,255,255,0.5004137397146359) 75%, rgba(255,255,255,0.4527946920955882) 100%" }}>
       <div className="card-body text-center">
         {/* <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar" className="rounded-circle img-fluid" style={{ width: 150 }} /> */}
         <h5 className="mt-2 mb-4 fs-2">{student.getName()}</h5>
@@ -40,7 +40,7 @@ export function ProfileCard(props) {
           </Table>
         </div>
 
-        <div className='rounded-3 overflow-hidden' style={{border:"1px solid"}}>
+        <div className='rounded-3 overflow-hidden' style={{ border: "1px solid" }}>
           <div className='table-responsive-sm border-0' >
             <Table bordered hover className='m-0 bg-light' style={{}}>
               <thead>
