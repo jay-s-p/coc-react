@@ -5,7 +5,7 @@ export function ProfileCard(props) {
   const student = props.student;
   const percentage = student.getResultPercentage();
   return (
-    <div className="card mb-4 rounded-4 ">
+    <div className="card mb-4 rounded-4" style={{background:"#ffffff55"}}>
       <div className="card-body text-center">
         {/* <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar" className="rounded-circle img-fluid" style={{ width: 150 }} /> */}
         <h5 className="mt-2 mb-4 fs-2">{student.getName()}</h5>
@@ -42,7 +42,7 @@ export function ProfileCard(props) {
 
         <div className='rounded-3 overflow-hidden' style={{border:"1px solid"}}>
           <div className='table-responsive-sm border-0' >
-            <Table bordered hover className='m-0 '>
+            <Table bordered hover className='m-0 bg-light' style={{}}>
               <thead>
                 <tr className='mt-1 table-dark'>
                   <th colSpan={2}>Result</th>

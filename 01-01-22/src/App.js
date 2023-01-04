@@ -18,7 +18,7 @@ console.log(students);
 
 function App() {
   return (
-    <div style={{ background: "#f0f6ff", width: "100%", height: "100%", minHeight: "100vh" }}>
+    <div style={{ background: "#00000000", width: "100%", height: "100%", minHeight: "100vh" }}>
       <Container>
         <div style={{ height: "5em", width: "100%" }}></div>
         <Row>
