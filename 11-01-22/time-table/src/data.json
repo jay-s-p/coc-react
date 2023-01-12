@@ -1,0 +1,301 @@
+[{
+    "day":"Monday",
+    "schedule":[{
+        "slot":"1",
+        "subject":"ReactJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#00beff"
+    },
+    {
+        "slot":"2",
+        "subject":"PHP",
+        "faculty":"FP",
+        "resource":"Lab 3",
+        "subjectColor":"white",
+        "backgroundColor":"#fb86ff"
+    },
+    {
+        "slot":"3",
+        "subject":"Java",
+        "faculty":"JDH",
+        "resource":"Lab 4",
+        "subjectColor":"white",
+        "backgroundColor":"#ffd394"
+    },
+    {
+        "slot":"4",
+        "subject":"SAD",
+        "faculty":"CJ",
+        "resource":"Lab 5",
+        "subjectColor":"white",
+        "backgroundColor":"#20dad8"
+    },
+    {
+        "slot":"5",
+        "subject":"C++",
+        "faculty":"PS",
+        "resource":"Lab 6",
+        "subjectColor":"white",
+        "backgroundColor":"#ff89cf"
+    },
+    {
+        "slot":"6",
+        "subject":"NodeJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#92eac0"
+    }]
+},{
+    "day":"Tuesday",
+    "schedule":[{
+        "slot":"1",        
+        "subject":"PHP",
+        "faculty":"FP",
+        "resource":"Lab 3",
+        "subjectColor":"white",
+        "backgroundColor":"#fb86ff"
+    },
+    {
+        "slot":"2",
+        "subject":"ReactJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#00beff"
+    },
+    {
+        "slot":"3",
+        "subject":"Java",
+        "faculty":"JDH",
+        "resource":"Lab 4",
+        "subjectColor":"white",
+        "backgroundColor":"#ffd394"
+    },
+    {
+        "slot":"4",
+        "subject":"SAD",
+        "faculty":"CJ",
+        "resource":"Lab 5",
+        "subjectColor":"white",
+        "backgroundColor":"#20dad8"
+    },
+    {
+        "slot":"5",
+        "subject":"C++",
+        "faculty":"PS",
+        "resource":"Lab 6",
+        "subjectColor":"white",
+        "backgroundColor":"#ff89cf"
+    },
+    {
+        "slot":"6",
+        "subject":"NodeJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#92eac0"
+    }]
+},{
+    "day":"Wednesday",
+    "schedule":[{
+        "slot":"1",
+        "subject":"ReactJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#00beff"
+    },
+    {
+        "slot":"2",
+        "subject":"PHP",
+        "faculty":"FP",
+        "resource":"Lab 3",
+        "subjectColor":"white",
+        "backgroundColor":"#fb86ff"
+    },
+    {
+        "slot":"3",
+        "subject":"Java",
+        "faculty":"JDH",
+        "resource":"Lab 4",
+        "subjectColor":"white",
+        "backgroundColor":"#ffd394"
+    },
+    {
+        "slot":"4",
+        "subject":"SAD",
+        "faculty":"CJ",
+        "resource":"Lab 5",
+        "subjectColor":"white",
+        "backgroundColor":"#20dad8"
+    },
+    {
+        "slot":"5",
+        "subject":"C++",
+        "faculty":"PS",
+        "resource":"Lab 6",
+        "subjectColor":"white",
+        "backgroundColor":"#ff89cf"
+    },
+    {
+        "slot":"6",
+        "subject":"NodeJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#92eac0"
+    }]
+},{
+    "day":"Thursday",
+    "schedule":[{
+        "slot":"1",
+        "subject":"ReactJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#00beff"
+    },
+    {
+        "slot":"2",
+        "subject":"PHP",
+        "faculty":"FP",
+        "resource":"Lab 3",
+        "subjectColor":"white",
+        "backgroundColor":"#fb86ff"
+    },
+    {
+        "slot":"3",
+        "subject":"Java",
+        "faculty":"JDH",
+        "resource":"Lab 4",
+        "subjectColor":"white",
+        "backgroundColor":"#ffd394"
+    },
+    {
+        "slot":"4",
+        "subject":"SAD",
+        "faculty":"CJ",
+        "resource":"Lab 5",
+        "subjectColor":"white",
+        "backgroundColor":"#20dad8"
+    },
+    {
+        "slot":"5",
+        "subject":"C++",
+        "faculty":"PS",
+        "resource":"Lab 6",
+        "subjectColor":"white",
+        "backgroundColor":"#ff89cf"
+    },
+    {
+        "slot":"6",
+        "subject":"NodeJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#92eac0"
+    }]
+},{
+    "day":"Friday",
+    "schedule":[{
+        "slot":"1",
+        "subject":"ReactJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#00beff"
+    },
+    {
+        "slot":"2",
+        "subject":"PHP",
+        "faculty":"FP",
+        "resource":"Lab 3",
+        "subjectColor":"white",
+        "backgroundColor":"#fb86ff"
+    },
+    {
+        "slot":"3",
+        "subject":"Java",
+        "faculty":"JDH",
+        "resource":"Lab 4",
+        "subjectColor":"white",
+        "backgroundColor":"#ffd394"
+    },
+    {
+        "slot":"4",
+        "subject":"SAD",
+        "faculty":"CJ",
+        "resource":"Lab 5",
+        "subjectColor":"white",
+        "backgroundColor":"#20dad8"
+    },
+    {
+        "slot":"5",
+        "subject":"C++",
+        "faculty":"PS",
+        "resource":"Lab 6",
+        "subjectColor":"white",
+        "backgroundColor":"#ff89cf"
+    },
+    {
+        "slot":"6",
+        "subject":"NodeJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#92eac0"
+    }]
+},{
+    "day":"Saturday",
+    "schedule":[{
+        "slot":"1",
+        "subject":"ReactJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#00beff"
+    },
+    {
+        "slot":"2",
+        "subject":"PHP",
+        "faculty":"FP",
+        "resource":"Lab 3",
+        "subjectColor":"white",
+        "backgroundColor":"#fb86ff"
+    },
+    {
+        "slot":"3",
+        "subject":"Java",
+        "faculty":"JDH",
+        "resource":"Lab 4",
+        "subjectColor":"white",
+        "backgroundColor":"#ffd394"
+    },
+    {
+        "slot":"4",
+        "subject":"SAD",
+        "faculty":"CJ",
+        "resource":"Lab 5",
+        "subjectColor":"white",
+        "backgroundColor":"#20dad8"
+    },
+    {
+        "slot":"5",
+        "subject":"C++",
+        "faculty":"PS",
+        "resource":"Lab 6",
+        "subjectColor":"white",
+        "backgroundColor":"#ff89cf"
+    },
+    {
+        "slot":"6",
+        "subject":"NodeJS",
+        "faculty":"PPG",
+        "resource":"Lab 8",
+        "subjectColor":"white",
+        "backgroundColor":"#92eac0"
+    }]
+}]

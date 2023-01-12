@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.TimeTableBox {
+    display: inline-flex;
+    margin: 1em;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.TimeTableDetails {
+    display: inline-block;
+    border-radius: 0.3em;
+}
+
+.TimeTableDetailsSubject {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.5em 1.3em 0.3em 1.3em;
+    visibility: visible;
+}
+
+.TimeTableDetailsAttendance {
+    position: absolute;
+    border-bottom-right-radius: 0.4em;
+    padding: 0 0.2em;
+}
+
+.TimeTableDetailsOtherData {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.TimeTableDetailsOtherData > div{
+    padding: 0 0.2em;
+}
