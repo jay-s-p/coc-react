@@ -1,0 +1,21 @@
+[{
+    "product_id":1,
+    "category":"Punjabi",    
+    "sub_category":"Sabji",    
+    "title":"George",
+    "price":100
+},
+{
+    "product_id":2,
+    "category":"book",    
+    "sub_category":"Sabji",
+    "title":"George",
+    "price":100
+},
+{
+    "product_id":3,
+    "category":"book",    
+    "sub_category":"Sabji",
+    "title":"George",
+    "price":100
+}]

@@ -1,0 +1,194 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "Apple",
+    "category": ["Fruits"],
+    "price": 200
+  },
+  {
+    "product_id": 2,
+    "product_name": "Orange",
+    "category": ["Fruits"],
+    "price": 100
+  },
+  {
+    "product_id": 3,
+    "product_name": "Banana",
+    "category": ["Fruits"],
+    "price": 140
+  },
+  {
+    "product_id": 4,
+    "product_name": "Mango",
+    "category": ["Fruits"],
+    "price": 300
+  },
+  {
+    "product_id": 5,
+    "product_name": "Potato",
+    "category": ["Vegetable"],
+    "price": 50
+  },
+  {
+    "product_id": 6,
+    "product_name": "Tomato",
+    "category": ["Vegetable"],
+    "price": 30
+  },
+  {
+    "product_id": 7,
+    "product_name": "Onion",
+    "category": ["Vegetable"],
+    "price": 100
+  },
+  {
+    "product_id": 8,
+    "product_name": "Cucumber",
+    "category": ["Vegetable"],
+    "price": 60
+  },
+  {
+    "product_id": 9,
+    "product_name": "Butter",
+    "category": ["dairy", "bakery"],
+    "price": 100
+  },
+  {
+    "product_id": 10,
+    "product_name": "Sliced cheese",
+    "category": ["dairy", "bakery"],
+    "price": 170
+  },
+  {
+    "product_id": 11,
+    "product_name": "Milk",
+    "category": ["dairy", "bakery"],
+    "price": 30
+  },
+  {
+    "product_id": 12,
+    "product_name": "Toast",
+    "category": ["dairy", "bakery"],
+    "price": 20
+  },
+  {
+    "product_id": 13,
+    "product_name": "Baby grooming",
+    "category": ["Baby care"],
+    "price": 250
+  },
+  {
+    "product_id": 14,
+    "product_name": "Baby food",
+    "category": ["Baby care"],
+    "price": 400
+  },
+  {
+    "product_id": 15,
+    "product_name": "Health & wellness",
+    "category": ["Baby care"],
+    "price": 350
+  },
+  {
+    "product_id": 16,
+    "product_name": "Baby toys",
+    "category": ["Baby care"],
+    "price": 100
+  },
+  {
+    "product_id": 17,
+    "product_name": "Detergents",
+    "category": ["Home"],
+    "price": 150
+  },
+  {
+    "product_id": 18,
+    "product_name": "Dish wash",
+    "category": ["Home"],
+    "price": 50
+  },
+  {
+    "product_id": 19,
+    "product_name": "Fresheners",
+    "category": ["Home"],
+    "price": 250
+  },
+  {
+    "product_id": 20,
+    "product_name": "Shoe Care",
+    "category": ["Home"],
+    "price": 120
+  },
+  {
+    "product_id": 21,
+    "product_name": "Dettol",
+    "category": ["soap"],
+    "price": 150
+  },
+  {
+    "product_id": 22,
+    "product_name": "Dove",
+    "category": ["soap"],
+    "price": 175
+  },
+  {
+    "product_id": 23,
+    "product_name": "Savlon",
+    "category": ["soap"],
+    "price": 178
+  },
+  {
+    "product_id": 24,
+    "product_name": "Santoor",
+    "category": ["soap"],
+    "price": 130
+  },
+  {
+    "product_id": 25,
+    "product_name": "Tea",
+    "category": ["Beverages"],
+    "price": 160
+  },
+  {
+    "product_id": 26,
+    "product_name": "Coffee",
+    "category": ["Beverages"],
+    "price": 50
+  },
+  {
+    "product_id": 27,
+    "product_name": "Fruit juices",
+    "category": ["Beverages"],
+    "price": 60
+  },
+  {
+    "product_id": 28,
+    "product_name": "Soda",
+    "category": ["Beverages"],
+    "price": 100
+  },
+  {
+    "product_id": 29,
+    "product_name": "Dal",
+    "category": ["Staples"],
+    "price": 40
+  },
+  {
+    "product_id": 30,
+    "product_name": "Rise",
+    "category": ["Staples"],
+    "price": 50
+  },
+  {
+    "product_id": 31,
+    "product_name": "Wheat",
+    "category": ["Staples"],
+    "price": 560
+  },
+  {
+    "product_id": 32,
+    "product_name": "Oil",
+    "category": ["Staples"],
+    "price": 350
+  }
+]
