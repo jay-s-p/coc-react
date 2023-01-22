@@ -1,0 +1,812 @@
+[
+    {
+        "product_name": "Golden Delicious",
+        "product_id": 0,
+        "product_type": 0,
+        "image_url": "Fruit/Apple/Golden-Delicious/Golden-Delicious_Iconic.jpg",
+        "price": 180,
+        "category": [
+            "Apple"
+        ]
+    },
+    {
+        "product_name": "Granny Smith",
+        "product_id": 1,
+        "product_type": 0,
+        "image_url": "Fruit/Apple/Granny-Smith/Granny-Smith_Iconic.jpg",
+        "price": 240,
+        "category": [
+            "Apple"
+        ]
+    },
+    {
+        "product_name": "Pink Lady",
+        "product_id": 2,
+        "product_type": 0,
+        "image_url": "Fruit/Apple/Pink-Lady/Pink-Lady_Iconic.jpg",
+        "price": 117,
+        "category": [
+            "Apple"
+        ]
+    },
+    {
+        "product_name": "Red Delicious",
+        "product_id": 3,
+        "product_type": 0,
+        "image_url": "Fruit/Apple/Red-Delicious/Red-Delicious_Iconic.jpg",
+        "price": 78,
+        "category": [
+            "Apple"
+        ]
+    },
+    {
+        "product_name": "Royal Gala",
+        "product_id": 4,
+        "product_type": 0,
+        "image_url": "Fruit/Apple/Royal-Gala/Royal-Gala_Iconic.jpg",
+        "price": 82,
+        "category": [
+            "Apple"
+        ]
+    },
+    {
+        "product_name": "Avocado",
+        "product_id": 5,
+        "product_type": 1,
+        "image_url": "Fruit/Avocado/Avocado_Iconic.jpg",
+        "price": 216,
+        "category": [
+            "Avocado"
+        ]
+    },
+    {
+        "product_name": "Banana",
+        "product_id": 6,
+        "product_type": 2,
+        "image_url": "Fruit/Banana/Banana_Iconic.jpg",
+        "price": 265,
+        "category": [
+            "Banana"
+        ]
+    },
+    {
+        "product_name": "Kiwi",
+        "product_id": 7,
+        "product_type": 3,
+        "image_url": "Fruit/Kiwi/Kiwi_Iconic.jpg",
+        "price": 87,
+        "category": [
+            "Kiwi"
+        ]
+    },
+    {
+        "product_name": "Lemon",
+        "product_id": 8,
+        "product_type": 4,
+        "image_url": "Fruit/Lemon/Lemon_Iconic.jpg",
+        "price": 192,
+        "category": [
+            "Lemon"
+        ]
+    },
+    {
+        "product_name": "Lime",
+        "product_id": 9,
+        "product_type": 5,
+        "image_url": "Fruit/Lime/Lime_Iconic.jpg",
+        "price": 118,
+        "category": [
+            "Lime"
+        ]
+    },
+    {
+        "product_name": "Mango",
+        "product_id": 10,
+        "product_type": 6,
+        "image_url": "Fruit/Mango/Mango_Iconic.jpg",
+        "price": 205,
+        "category": [
+            "Mango"
+        ]
+    },
+    {
+        "product_name": "Cantaloupe",
+        "product_id": 11,
+        "product_type": 7,
+        "image_url": "Fruit/Melon/Cantaloupe/Cantaloupe_Iconic.jpg",
+        "price": 225,
+        "category": [
+            "Melon"
+        ]
+    },
+    {
+        "product_name": "Galia Melon",
+        "product_id": 12,
+        "product_type": 7,
+        "image_url": "Fruit/Melon/Galia-Melon/Galia-Melon_Iconic.jpg",
+        "price": 60,
+        "category": [
+            "Melon"
+        ]
+    },
+    {
+        "product_name": "Honeydew Melon",
+        "product_id": 13,
+        "product_type": 7,
+        "image_url": "Fruit/Melon/Honeydew-Melon/Honeydew-Melon_Iconic.jpg",
+        "price": 123,
+        "category": [
+            "Melon"
+        ]
+    },
+    {
+        "product_name": "Watermelon",
+        "product_id": 14,
+        "product_type": 7,
+        "image_url": "Fruit/Melon/Watermelon/Watermelon_Iconic.jpg",
+        "price": 162,
+        "category": [
+            "Melon"
+        ]
+    },
+    {
+        "product_name": "Nectarine",
+        "product_id": 15,
+        "product_type": 8,
+        "image_url": "Fruit/Nectarine/Nectarine_Iconic.jpg",
+        "price": 67,
+        "category": [
+            "Nectarine"
+        ]
+    },
+    {
+        "product_name": "Orange",
+        "product_id": 16,
+        "product_type": 9,
+        "image_url": "Fruit/Orange/Orange_Iconic.jpg",
+        "price": 283,
+        "category": [
+            "Orange"
+        ]
+    },
+    {
+        "product_name": "Papaya",
+        "product_id": 17,
+        "product_type": 10,
+        "image_url": "Fruit/Papaya/Papaya_Iconic.jpg",
+        "price": 137,
+        "category": [
+            "Papaya"
+        ]
+    },
+    {
+        "product_name": "Passion Fruit",
+        "product_id": 18,
+        "product_type": 11,
+        "image_url": "Fruit/Passion-Fruit/Passion-Fruit_Iconic.jpg",
+        "price": 232,
+        "category": [
+            "Passion_Fruit"
+        ]
+    },
+    {
+        "product_name": "Peach",
+        "product_id": 19,
+        "product_type": 12,
+        "image_url": "Fruit/Peach/Peach_Iconic.jpg",
+        "price": 114,
+        "category": [
+            "Peach"
+        ]
+    },
+    {
+        "product_name": "Anjou",
+        "product_id": 20,
+        "product_type": 13,
+        "image_url": "Fruit/Pear/Anjou/Anjou_Iconic.jpg",
+        "price": 191,
+        "category": [
+            "Pear"
+        ]
+    },
+    {
+        "product_name": "Conference",
+        "product_id": 21,
+        "product_type": 13,
+        "image_url": "Fruit/Pear/Conference/Conference_Iconic.jpg",
+        "price": 247,
+        "category": [
+            "Pear"
+        ]
+    },
+    {
+        "product_name": "Kaiser",
+        "product_id": 22,
+        "product_type": 13,
+        "image_url": "Fruit/Pear/Kaiser/Kaiser_Iconic.jpg",
+        "price": 156,
+        "category": [
+            "Pear"
+        ]
+    },
+    {
+        "product_name": "Pineapple",
+        "product_id": 23,
+        "product_type": 14,
+        "image_url": "Fruit/Pineapple/Pineapple_Iconic.jpg",
+        "price": 190,
+        "category": [
+            "Pineapple"
+        ]
+    },
+    {
+        "product_name": "Plum",
+        "product_id": 24,
+        "product_type": 15,
+        "image_url": "Fruit/Plum/Plum_Iconic.jpg",
+        "price": 253,
+        "category": [
+            "Plum"
+        ]
+    },
+    {
+        "product_name": "Pomegranate",
+        "product_id": 25,
+        "product_type": 16,
+        "image_url": "Fruit/Pomegranate/Pomegranate_Iconic.jpg",
+        "price": 183,
+        "category": [
+            "Pomegranate"
+        ]
+    },
+    {
+        "product_name": "Red Grapefruit",
+        "product_id": 26,
+        "product_type": 17,
+        "image_url": "Fruit/Red-Grapefruit/Red-Grapefruit_Iconic.jpg",
+        "price": 299,
+        "category": [
+            "Red_Grapefruit"
+        ]
+    },
+    {
+        "product_name": "Satsumas",
+        "product_id": 27,
+        "product_type": 18,
+        "image_url": "Fruit/Satsumas/Satsumas_Iconic.jpg",
+        "price": 143,
+        "category": [
+            "Satsumas"
+        ]
+    },
+    {
+        "product_name": "Bravo Apple Juice",
+        "product_id": 28,
+        "product_type": 19,
+        "image_url": "Packages/Juice/Bravo-Apple-Juice/Bravo-Apple-Juice_Iconic.jpg",
+        "price": 84,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "Bravo Orange Juice",
+        "product_id": 29,
+        "product_type": 19,
+        "image_url": "Packages/Juice/Bravo-Orange-Juice/Bravo-Orange-Juice_Iconic.jpg",
+        "price": 62,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "God Morgon Apple Juice",
+        "product_id": 30,
+        "product_type": 19,
+        "image_url": "Packages/Juice/God-Morgon-Apple-Juice/God-Morgon-Apple-Juice_Iconic.jpg",
+        "price": 273,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "God Morgon Orange Juice",
+        "product_id": 31,
+        "product_type": 19,
+        "image_url": "Packages/Juice/God-Morgon-Orange-Juice/God-Morgon-Orange-Juice_Iconic.jpg",
+        "price": 212,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "God Morgon Orange Red Grapefruit Juice",
+        "product_id": 32,
+        "product_type": 19,
+        "image_url": "Packages/Juice/God-Morgon-Orange-Red-Grapefruit-Juice/God-Morgon-Orange-Red-Grapefruit-Juice_Iconic.jpg",
+        "price": 221,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "God Morgon Red Grapefruit Juice",
+        "product_id": 33,
+        "product_type": 19,
+        "image_url": "Packages/Juice/God-Morgon-Red-Grapefruit-Juice/God-Morgon-Red-Grapefruit-Juice_Iconic.jpg",
+        "price": 281,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "Tropicana Apple Juice",
+        "product_id": 34,
+        "product_type": 19,
+        "image_url": "Packages/Juice/Tropicana-Apple-Juice/Tropicana-Apple-Juice_Iconic.jpg",
+        "price": 220,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "Tropicana Golden Grapefruit",
+        "product_id": 35,
+        "product_type": 19,
+        "image_url": "Packages/Juice/Tropicana-Golden-Grapefruit/Tropicana-Golden-Grapefruit_Iconic.jpg",
+        "price": 158,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "Tropicana Juice Smooth",
+        "product_id": 36,
+        "product_type": 19,
+        "image_url": "Packages/Juice/Tropicana-Juice-Smooth/Tropicana-Juice-Smooth_Iconic.jpg",
+        "price": 224,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "Tropicana Mandarin Morning",
+        "product_id": 37,
+        "product_type": 19,
+        "image_url": "Packages/Juice/Tropicana-Mandarin-Morning/Tropicana-Mandarin-Morning_Iconic.jpg",
+        "price": 113,
+        "category": [
+            "Juice"
+        ]
+    },
+    {
+        "product_name": "Arla Ecological Medium Fat Milk",
+        "product_id": 38,
+        "product_type": 20,
+        "image_url": "Packages/Milk/Arla-Ecological-Medium-Fat-Milk/Arla-Ecological-Medium-Fat-Milk_Iconic.jpg",
+        "price": 214,
+        "category": [
+            "Milk"
+        ]
+    },
+    {
+        "product_name": "Arla Lactose Medium Fat Milk",
+        "product_id": 39,
+        "product_type": 20,
+        "image_url": "Packages/Milk/Arla-Lactose-Medium-Fat-Milk/Arla-Lactose-Medium-Fat-Milk_Iconic.jpg",
+        "price": 110,
+        "category": [
+            "Milk"
+        ]
+    },
+    {
+        "product_name": "Arla Medium Fat Milk",
+        "product_id": 40,
+        "product_type": 20,
+        "image_url": "Packages/Milk/Arla-Medium-Fat-Milk/Arla-Medium-Fat-Milk_Iconic.jpg",
+        "price": 293,
+        "category": [
+            "Milk"
+        ]
+    },
+    {
+        "product_name": "Arla Standard Milk",
+        "product_id": 41,
+        "product_type": 20,
+        "image_url": "Packages/Milk/Arla-Standard-Milk/Arla-Standard-Milk_Iconic.jpg",
+        "price": 268,
+        "category": [
+            "Milk"
+        ]
+    },
+    {
+        "product_name": "Garant Ecological Medium Fat Milk",
+        "product_id": 42,
+        "product_type": 20,
+        "image_url": "Packages/Milk/Garant-Ecological-Medium-Fat-Milk/Garant-Ecological-Medium-Fat-Milk_Iconic.jpg",
+        "price": 208,
+        "category": [
+            "Milk"
+        ]
+    },
+    {
+        "product_name": "Garant Ecological Standard Milk",
+        "product_id": 43,
+        "product_type": 20,
+        "image_url": "Packages/Milk/Garant-Ecological-Standard-Milk/Garant-Ecological-Standard-Milk_Iconic.jpg",
+        "price": 124,
+        "category": [
+            "Milk"
+        ]
+    },
+    {
+        "product_name": "Oatly Natural Oatghurt",
+        "product_id": 44,
+        "product_type": 21,
+        "image_url": "Packages/Oatghurt/Oatly-Natural-Oatghurt/Oatly-Natural-Oatghurt_Iconic.jpg",
+        "price": 199,
+        "category": [
+            "Oatghurt"
+        ]
+    },
+    {
+        "product_name": "Oatly Oat Milk",
+        "product_id": 45,
+        "product_type": 22,
+        "image_url": "Packages/Oat-Milk/Oatly-Oat-Milk/Oatly-Oat-Milk_Iconic.jpg",
+        "price": 157,
+        "category": [
+            "Oat_Milk"
+        ]
+    },
+    {
+        "product_name": "Arla Ecological Sour Cream",
+        "product_id": 46,
+        "product_type": 23,
+        "image_url": "Packages/Sour-Cream/Arla-Ecological-Sour-Cream/Arla-Ecological-Sour-Cream_Iconic.jpg",
+        "price": 204,
+        "category": [
+            "Sour_Cream"
+        ]
+    },
+    {
+        "product_name": "Arla Sour Cream",
+        "product_id": 47,
+        "product_type": 23,
+        "image_url": "Packages/Sour-Cream/Arla-Sour-Cream/Arla-Sour-Cream_Iconic.jpg",
+        "price": 280,
+        "category": [
+            "Sour_Cream"
+        ]
+    },
+    {
+        "product_name": "Arla Sour Milk",
+        "product_id": 48,
+        "product_type": 24,
+        "image_url": "Packages/Sour-Milk/Arla-Sour-Milk/Arla-Sour-Milk_Iconic.jpg",
+        "price": 282,
+        "category": [
+            "Sour_Milk"
+        ]
+    },
+    {
+        "product_name": "Alpro Blueberry Soyghurt",
+        "product_id": 49,
+        "product_type": 25,
+        "image_url": "Packages/Soyghurt/Alpro-Blueberry-Soyghurt/Alpro-Blueberry-Soyghurt_Iconic.jpg",
+        "price": 201,
+        "category": [
+            "Soyghurt"
+        ]
+    },
+    {
+        "product_name": "Alpro Vanilla Soyghurt",
+        "product_id": 50,
+        "product_type": 25,
+        "image_url": "Packages/Soyghurt/Alpro-Vanilla-Soyghurt/Alpro-Vanilla-Soyghurt_Iconic.jpg",
+        "price": 260,
+        "category": [
+            "Soyghurt"
+        ]
+    },
+    {
+        "product_name": "Alpro Fresh Soy Milk",
+        "product_id": 51,
+        "product_type": 26,
+        "image_url": "Packages/Soy-Milk/Alpro-Fresh-Soy-Milk/Alpro-Fresh-Soy-Milk_Iconic.jpg",
+        "price": 286,
+        "category": [
+            "Soy_Milk"
+        ]
+    },
+    {
+        "product_name": "Alpro Shelf Soy Milk",
+        "product_id": 52,
+        "product_type": 26,
+        "image_url": "Packages/Soy-Milk/Alpro-Shelf-Soy-Milk/Alpro-Shelf-Soy-Milk_Iconic.jpg",
+        "price": 210,
+        "category": [
+            "Soy_Milk"
+        ]
+    },
+    {
+        "product_name": "Arla Mild Vanilla Yoghurt",
+        "product_id": 53,
+        "product_type": 27,
+        "image_url": "Packages/Yoghurt/Arla-Mild-Vanilla-Yoghurt/Arla-Mild-Vanilla-Yoghurt_Iconic.jpg",
+        "price": 264,
+        "category": [
+            "Yoghurt"
+        ]
+    },
+    {
+        "product_name": "Arla Natural Mild Low Fat Yoghurt",
+        "product_id": 54,
+        "product_type": 27,
+        "image_url": "Packages/Yoghurt/Arla-Natural-Mild-Low-Fat-Yoghurt/Arla-Natural-Mild-Low-Fat-Yoghurt_Iconic.jpg",
+        "price": 145,
+        "category": [
+            "Yoghurt"
+        ]
+    },
+    {
+        "product_name": "Arla Natural Yoghurt",
+        "product_id": 55,
+        "product_type": 27,
+        "image_url": "Packages/Yoghurt/Arla-Natural-Yoghurt/Arla-Natural-Yoghurt_Iconic.jpg",
+        "price": 68,
+        "category": [
+            "Yoghurt"
+        ]
+    },
+    {
+        "product_name": "Valio Vanilla Yoghurt",
+        "product_id": 56,
+        "product_type": 27,
+        "image_url": "Packages/Yoghurt/Valio-Vanilla-Yoghurt/Valio-Vanilla-Yoghurt_Iconic.jpg",
+        "price": 93,
+        "category": [
+            "Yoghurt"
+        ]
+    },
+    {
+        "product_name": "Yoggi Strawberry Yoghurt",
+        "product_id": 57,
+        "product_type": 27,
+        "image_url": "Packages/Yoghurt/Yoggi-Strawberry-Yoghurt/Yoggi-Strawberry-Yoghurt_Iconic.jpg",
+        "price": 64,
+        "category": [
+            "Yoghurt"
+        ]
+    },
+    {
+        "product_name": "Yoggi Vanilla Yoghurt",
+        "product_id": 58,
+        "product_type": 27,
+        "image_url": "Packages/Yoghurt/Yoggi-Vanilla-Yoghurt/Yoggi-Vanilla-Yoghurt_Iconic.jpg",
+        "price": 235,
+        "category": [
+            "Yoghurt"
+        ]
+    },
+    {
+        "product_name": "Asparagus",
+        "product_id": 59,
+        "product_type": 28,
+        "image_url": "Vegetables/Asparagus/Asparagus_Iconic.jpg",
+        "price": 245,
+        "category": [
+            "Asparagus"
+        ]
+    },
+    {
+        "product_name": "Aubergine",
+        "product_id": 60,
+        "product_type": 29,
+        "image_url": "Vegetables/Aubergine/Aubergine_Iconic.jpg",
+        "price": 89,
+        "category": [
+            "Aubergine"
+        ]
+    },
+    {
+        "product_name": "Cabbage",
+        "product_id": 61,
+        "product_type": 30,
+        "image_url": "Vegetables/Cabbage/Cabbage_Iconic.jpg",
+        "price": 152,
+        "category": [
+            "Cabbage"
+        ]
+    },
+    {
+        "product_name": "Carrots",
+        "product_id": 62,
+        "product_type": 31,
+        "image_url": "Vegetables/Carrots/Carrots_Iconic.jpg",
+        "price": 151,
+        "category": [
+            "Carrots"
+        ]
+    },
+    {
+        "product_name": "Cucumber",
+        "product_id": 63,
+        "product_type": 32,
+        "image_url": "Vegetables/Cucumber/Cucumber_Iconic.jpg",
+        "price": 231,
+        "category": [
+            "Cucumber"
+        ]
+    },
+    {
+        "product_name": "Garlic",
+        "product_id": 64,
+        "product_type": 33,
+        "image_url": "Vegetables/Garlic/Garlic_Iconic.jpg",
+        "price": 175,
+        "category": [
+            "Garlic"
+        ]
+    },
+    {
+        "product_name": "Ginger",
+        "product_id": 65,
+        "product_type": 34,
+        "image_url": "Vegetables/Ginger/Ginger_Iconic.jpg",
+        "price": 161,
+        "category": [
+            "Ginger"
+        ]
+    },
+    {
+        "product_name": "Leek",
+        "product_id": 66,
+        "product_type": 35,
+        "image_url": "Vegetables/Leek/Leek_Iconic.jpg",
+        "price": 96,
+        "category": [
+            "Leek"
+        ]
+    },
+    {
+        "product_name": "Brown Cap Mushroom",
+        "product_id": 67,
+        "product_type": 36,
+        "image_url": "Vegetables/Mushroom/Brown-Cap-Mushroom/Brown-Cap-Mushroom_Iconic.jpg",
+        "price": 196,
+        "category": [
+            "Mushroom"
+        ]
+    },
+    {
+        "product_name": "Yellow Onion",
+        "product_id": 68,
+        "product_type": 37,
+        "image_url": "Vegetables/Onion/Yellow-Onion/Yellow-Onion_Iconic.jpg",
+        "price": 211,
+        "category": [
+            "Onion"
+        ]
+    },
+    {
+        "product_name": "Green Bell Pepper",
+        "product_id": 69,
+        "product_type": 38,
+        "image_url": "Vegetables/Pepper/Green-Bell-Pepper/Green-Bell-Pepper_Iconic.jpg",
+        "price": 144,
+        "category": [
+            "Pepper"
+        ]
+    },
+    {
+        "product_name": "Orange Bell Pepper",
+        "product_id": 70,
+        "product_type": 38,
+        "image_url": "Vegetables/Pepper/Orange-Bell-Pepper/Orange-Bell-Pepper_Iconic.jpg",
+        "price": 160,
+        "category": [
+            "Pepper"
+        ]
+    },
+    {
+        "product_name": "Red Bell Pepper",
+        "product_id": 71,
+        "product_type": 38,
+        "image_url": "Vegetables/Pepper/Red-Bell-Pepper/Red-Bell-Pepper_Iconic.jpg",
+        "price": 248,
+        "category": [
+            "Pepper"
+        ]
+    },
+    {
+        "product_name": "Yellow Bell Pepper",
+        "product_id": 72,
+        "product_type": 38,
+        "image_url": "Vegetables/Pepper/Yellow-Bell-Pepper/Yellow-Bell-Pepper_Iconic.jpg",
+        "price": 163,
+        "category": [
+            "Pepper"
+        ]
+    },
+    {
+        "product_name": "Floury Potato",
+        "product_id": 73,
+        "product_type": 39,
+        "image_url": "Vegetables/Potato/Floury-Potato/Floury-Potato_Iconic.jpg",
+        "price": 198,
+        "category": [
+            "Potato"
+        ]
+    },
+    {
+        "product_name": "Solid Potato",
+        "product_id": 74,
+        "product_type": 39,
+        "image_url": "Vegetables/Potato/Solid-Potato/Solid-Potato_Iconic.jpg",
+        "price": 239,
+        "category": [
+            "Potato"
+        ]
+    },
+    {
+        "product_name": "Sweet Potato",
+        "product_id": 75,
+        "product_type": 39,
+        "image_url": "Vegetables/Potato/Sweet-Potato/Sweet-Potato_Iconic.jpg",
+        "price": 140,
+        "category": [
+            "Potato"
+        ]
+    },
+    {
+        "product_name": "Red Beet",
+        "product_id": 76,
+        "product_type": 40,
+        "image_url": "Vegetables/Red-Beet/Red-Beet_Iconic.jpg",
+        "price": 131,
+        "category": [
+            "Red_Beet"
+        ]
+    },
+    {
+        "product_name": "Beef Tomato",
+        "product_id": 77,
+        "product_type": 41,
+        "image_url": "Vegetables/Tomato/Beef-Tomato/Beef-Tomato_Iconic.jpg",
+        "price": 74,
+        "category": [
+            "Tomato"
+        ]
+    },
+    {
+        "product_name": "Regular Tomato",
+        "product_id": 78,
+        "product_type": 41,
+        "image_url": "Vegetables/Tomato/Regular-Tomato/Regular-Tomato_Iconic.jpg",
+        "price": 97,
+        "category": [
+            "Tomato"
+        ]
+    },
+    {
+        "product_name": "Vine Tomato",
+        "product_id": 79,
+        "product_type": 41,
+        "image_url": "Vegetables/Tomato/Vine-Tomato/Vine-Tomato_Iconic.jpg",
+        "price": 76,
+        "category": [
+            "Tomato"
+        ]
+    },
+    {
+        "product_name": "Zucchini",
+        "product_id": 80,
+        "product_type": 42,
+        "image_url": "Vegetables/Zucchini/Zucchini_Iconic.jpg",
+        "price": 298,
+        "category": [
+            "Zucchini"
+        ]
+    }
+]

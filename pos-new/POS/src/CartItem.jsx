@@ -25,21 +25,22 @@ export default function CartItem(props) {
                                 onClick={() => {
                                     setQuantity(quantity - 1)
                                     setSubTotal((quantity - 1) * price)
+                                    props.setTotalPrice()
                                     document.getElementById("cat_item_" + props.item.product_name).value = parseInt(document.getElementById("cat_item_" + props.item.product_name).value) - 1
                                 }}>
                                 <img alt="lol" width="25px" height="25px" src={minus} />
                             </div>
-                            <input onInput={() => {
+                            <input onChange={() => {
+                                console.log(quantity);
                                 setQuantity(document.getElementById("cat_item_" + props.item.product_name).value)
                                 setSubTotal((document.getElementById("cat_item_" + props.item.product_name).value) * price)
-                            }} type="text" min="{0}" max="{99}" id={"cat_item_" + props.item.product_name} style={{ width: "35px", textAlign: "center" }} defaultValue={1} />
+                            }} type="text" min="{0}" max="{99}" id={"cat_item_" + props.item.product_name} style={{ width: "35px", textAlign: "center" }} defaultValue={quantity} />
                             <div style={{ background: "#333", borderRadius: "5px" }}
 
                                 onClick={() => {
                                     setQuantity(quantity + 1)
                                     setSubTotal((quantity + 1) * price)
                                     document.getElementById("cat_item_" + props.item.product_name).value = parseInt(document.getElementById("cat_item_" + props.item.product_name).value) + 1
-                                    // props.item.quantity = props.item.quantity + 1
                                 }}>
                                 <img alt="lol" width="25px" height="25px" src={plus} />
                             </div>
@@ -49,6 +50,8 @@ export default function CartItem(props) {
                 <td className="text-center">{props.item.price}</td>
                 <td className="text-end">{subTotal}</td>
             </tr>
+
         )
+
     }
 }
