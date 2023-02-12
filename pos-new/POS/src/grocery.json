@@ -49,7 +49,8 @@
     "product_name": "Tomato",
     "image_url": "https://www.jiomart.com/images/product/150x150/590003517/tomato-1-kg-product-images-o590003517-p590003517-0-202203170629.jpg",
     "category": [
-      "Vegetable"
+      "Vegetable",
+      "Fruits"
     ],
     "price": 30
   },

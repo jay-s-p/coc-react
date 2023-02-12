@@ -1,11 +1,11 @@
-import plus from "./images/plus-dark.png"
-import minus from "./images/minus-dark.png"
+import plus from "./assets/images/plus-dark.png"
+import minus from "./assets/images/minus-dark.png"
 import { useState } from "react";
 
 export default function CartItem(props) {
 
     // const item = props.item
-    // const setCartItem = props.setCartItem
+    const setCartItem = props.setCartItem
     // console.log(setCartItem)
     if (props["item"] == undefined)
         console.log("lol");
@@ -23,23 +23,68 @@ export default function CartItem(props) {
                         <div className="d-flex mt-1 w-75 justify-content-evenly align-items-center">
                             <div style={{ background: "#333", borderRadius: "5px" }}
                                 onClick={() => {
+                                    console.log(quantity - 1 + ":" + (subTotal - price));
+                                    if (quantity == 1)
+                                        return
                                     setQuantity(quantity - 1)
                                     setSubTotal((quantity - 1) * price)
-                                    props.setTotalPrice()
+                                    props.setTotalPrice((total) => {
+                                        total = total - subTotal
+                                        total = total + ((quantity - 1) * price)
+                                        return total
+                                    })
                                     document.getElementById("cat_item_" + props.item.product_name).value = parseInt(document.getElementById("cat_item_" + props.item.product_name).value) - 1
                                 }}>
                                 <img alt="lol" width="25px" height="25px" src={minus} />
                             </div>
-                            <input onChange={() => {
-                                console.log(quantity);
-                                setQuantity(document.getElementById("cat_item_" + props.item.product_name).value)
-                                setSubTotal((document.getElementById("cat_item_" + props.item.product_name).value) * price)
-                            }} type="text" min="{0}" max="{99}" id={"cat_item_" + props.item.product_name} style={{ width: "35px", textAlign: "center" }} defaultValue={quantity} />
+                            <input
+                                onKeyDown={(event) => {
+                                    // console.clear();
+                                    // console.log((event.key));
+                                    // console.log((event.target.value.length));
+                                    // console.log((event.key == 0));
+                                    if (event.key == "-" || event.key == "e" || event.key == "." || event.key == " " || (event.target.value.length == 0 && event.key == 0)) {
+                                        event.preventDefault()
+                                        document.getElementById("cat_item_" + props.item.product_name).value = 1
+                                        setQuantity(parseInt(document.getElementById("cat_item_" + props.item.product_name).value))
+                                        setSubTotal((parseInt(document.getElementById("cat_item_" + props.item.product_name).value)) * price)
+                                        props.setTotalPrice((total) => {
+                                            total = total - subTotal
+                                            total = total + ((parseInt(document.getElementById("cat_item_" + props.item.product_name).value)) * price)
+                                            return total
+                                        })
+                                    }
+                                }}
+                                onChange={() => {
+                                    if (isNaN(parseInt(document.getElementById("cat_item_" + props.item.product_name).value))) {
+                                        setQuantity(1)
+                                        setSubTotal(0)
+                                        props.setTotalPrice((total) => {
+                                            total = total - subTotal
+                                            // total = total + price
+                                            return total
+                                        })
+                                    } else {
+                                        setQuantity(parseInt(document.getElementById("cat_item_" + props.item.product_name).value));
+                                        setSubTotal((parseInt(document.getElementById("cat_item_" + props.item.product_name).value)) * price)
+                                        props.setTotalPrice((total) => {
+                                            total = total - subTotal
+                                            total = total + ((parseInt(document.getElementById("cat_item_" + props.item.product_name).value)) * price)
+                                            return total
+                                        })
+                                    }
+                                }} type="number" id={"cat_item_" + props.item.product_name} style={{ width: "35px", textAlign: "center" }} defaultValue={1} />
                             <div style={{ background: "#333", borderRadius: "5px" }}
 
                                 onClick={() => {
+                                    console.log(quantity + 1 + ":" + (subTotal + price));
                                     setQuantity(quantity + 1)
                                     setSubTotal((quantity + 1) * price)
+                                    props.setTotalPrice((total) => {
+                                        total = total - subTotal
+                                        total = total + ((quantity + 1) * price)
+                                        return total
+                                    })
                                     document.getElementById("cat_item_" + props.item.product_name).value = parseInt(document.getElementById("cat_item_" + props.item.product_name).value) + 1
                                 }}>
                                 <img alt="lol" width="25px" height="25px" src={plus} />
