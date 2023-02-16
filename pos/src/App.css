@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "gabriola";
+  src: url("./assets/fonts/gabriola.woff") format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+* {
+  font-family: "poppins";
+}
+
+body {
+  background-color: #edf1f9;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +20,17 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.card-style-1 {
+  width: 13rem;
+  box-shadow: 1px 10px 35px -25px;
+  cursor: pointer;
+}
+
+
+.card-style-1:hover {
+  box-shadow: 1px 10px 35px -25px;
 }
 
 .scrollbar-style-0::-webkit-scrollbar {
@@ -32,6 +58,40 @@
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
   background-color: #555;
 }
+
+.scrollbar-style-1-2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.scrollbar-style-1-2::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #F5F5F5;
+}
+
+.scrollbar-style-1-2::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+.scrollbar-style-2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+.scrollbar-style-2::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+.scrollbar-style-2::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
 
 .text-limit-1 {
   width: 150px;
@@ -61,10 +121,10 @@ abbr {
 }
 
 .rounded-table-row>tbody>tr>td {
-  background: #e5f1ff;
+  background-color: #0076ff1a;
 }
 
-.rounded-table-row>tbody>tr>td:first-child {
+.rounded-table-row>tbody>tr>td:nth-child(1) {
 
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -73,6 +133,112 @@ abbr {
 .rounded-table-row>tbody>tr>td:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.card-img-w-h {
+  width: 100%;
+  height: 13rem;
+  object-fit: contain;
+}
+
+.cart-item td>div {
+  z-index: 3;
+}
+
+.cart-item-image-text {
+  /* border: 1px solid black;
+  opacity: 0.6; */
+}
+
+.cart-item-image-text {
+  /* content: ""; */
+  /* background-image: url('https://placekitten.com/1200/800'); */
+  /* background-image: attr(data); */
+  /* background-color: attr(data-url url) !important; */
+  /* background-size: cover; */
+  /* border: 1px solid; */
+  /* transform: translate(-8px, -65px); */
+  /* top: 0px; */
+  /* right: 0px; */
+  /* bottom: 0px; */
+  /* left: 0px; */
+  background-size: auto;
+  z-index: -1 !important;
+  height: 4.5em;
+  display: block;
+  background-size: cover;
+  margin: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: transparent !important;
+  transform: translateX(6em);
+  width: 11em;
+  position: fixed;
+  z-index: -11;
+  opacity: 0.5;
+}
+
+.cart-item-image-text>img {
+  /* width: 11em;
+  position: absolute; */
+  width: inherit;
+}
+
+/* .cart-item-image {
+  filter: opacity(1);
+  z-index: -10;
+  background: none !important;
+  height: 100%;
+}
+
+.cart-item-image > img{
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.5;
+} */
+
+#exp-1::after {
+  content: "";
+  /* background: rgb(245, 248, 252);
+  background: linear-gradient(90deg, rgba(245, 248, 252, 1) 0%, rgba(245, 248, 252, 1) 75%, rgba(252, 70, 70, 0) 100%); */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2em;
+  /* border: 1px solid red; */
+  background: #fff;
+  background: linear-gradient(0deg, #edf1f9, #edf1f9, transparent, transparent);
+}
+
+#exp-2::after {
+  content: "";
+  position: absolute;
+  right: 2rem;
+  /* border: 1px solid red; */
+  background: #fff;
+  background: linear-gradient(270deg, #edf1f9, #edf1f9, transparent, transparent);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 4rem;
+  height: 3rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.search-bar:focus,
+.search-bar:not(:placeholder-shown) {
+  background-color: #fff !important;
+  transition: all 500ms;
+}
+
+.pt-cus {
+  padding-top: 28px !important
 }
 
 @media (prefers-reduced-motion: no-preference) {
